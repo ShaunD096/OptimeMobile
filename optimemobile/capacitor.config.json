@@ -1,0 +1,35 @@
+{
+  "appId": "com.atlasgo.optime",
+  "appName": "Optime Financial",
+  "webDir": "public",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://ais-dev-jttmxbljxorjks5jz23hqg-193507629407.us-west2.run.app",
+    "cleartext": true,
+    "allowNavigation": [
+      "ais-dev-jttmxbljxorjks5jz23hqg-193507629407.us-west2.run.app",
+      "ais-pre-jttmxbljxorjks5jz23hqg-193507629407.us-west2.run.app",
+      "*.run.app"
+    ]
+  },
+  "ios": {
+    "contentInset": "always",
+    "preferredContentMode": "mobile",
+    "backgroundColor": "#020617"
+  },
+  "android": {
+    "backgroundColor": "#020617",
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#020617",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#020617"
+    }
+  }
+}

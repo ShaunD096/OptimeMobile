@@ -1,0 +1,8 @@
+{
+  "name": "Optime Financial",
+  "description": "Personal financial intelligence: Financial Management Score, cash forecasts, and travel optimizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
